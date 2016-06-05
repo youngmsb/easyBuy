@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--导入属性配置 -->
+    <properties resource="conf/db.properties"></properties>
+    <!-- 制定mysql的驱动包的路径, 不要放在中文路径下 -->
+    <classPathEntry location="${jdbc.driverLocation}" />
+    <!-- 配置数据源和生成的代码所存放的位置 -->
+    <context id="context">
+        <commentGenerator>
+            <!--去除所有注释-->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <jdbcConnection driverClass="${jdbc.driver}"
+                        connectionURL="${jdbc.url}"
+                        userId="${jdbc.username}"
+                        password="${jdbc.password}" />
+        <!-- 生成数据库对应的数据模型-->
+        <javaModelGenerator targetPackage="com.duanzq.easyBuy.model" targetProject="src/main/java" />
+        <!-- 生成dao层的mapper文件, 包含具体的增删该查执行语句 -->
+        <sqlMapGenerator targetPackage="com.duanzq.easyBuy.mapper" targetProject="src/main/java" />
+        <!-- 生成dao层接口文件-->
+        <javaClientGenerator type="xmlMapper" targetPackage="com.duanzq.easyBuy.mapper" targetProject="src/main/java"/>
+        <!-- 为哪些表生成代码 tableName:表名 schema:不用填写 去除例子生成-->
+        <table schema="" tableName="tb_item" enableCountByExample="false"
+               enableUpdateByExample="false" enableDeleteByExample="false"
+               enableSelectByExample="false" selectByExampleQueryId="false">
+        </table>
+    </context>
+</generatorConfiguration>

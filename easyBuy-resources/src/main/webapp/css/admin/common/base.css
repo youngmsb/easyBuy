@@ -1,0 +1,131 @@
+.center1002 { /* 含边框 */
+    margin: 0 auto;
+    width: 1002px;
+}
+
+.nav {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #E5E5E5;
+    background-color: #FAFAFA;
+}
+
+.nav span {
+    display: inline-block;
+    margin-left: 250px;
+    width: 300px;
+    padding-right: 20px;
+    text-align: right;
+    color: #B0B0B0;
+    border-right: 1px solid #B0AFAD;
+}
+
+.content {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.nav a {
+    display: inline-block;
+    width: 40px;
+    margin-left: 10px;
+    color: #FBBD00;
+}
+
+.content-left {
+    background-color: #FAFAFA;
+}
+
+.menu-item {
+    position: relative;
+    width: 182px;
+    border-bottom: 1px solid #FAFAFA;
+}
+
+.menu-item p {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+    color: #535353;
+}
+
+
+
+.menu {
+    display: none;
+}
+
+.menu li a{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 40px;
+    color: #797979;
+}
+
+.menu li a:hover,.menu li a.choosed  {
+    background: #FFE699;/*#FFC001*/
+}
+
+.menu-arrow {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.menu-down-arrow:before {
+    content: "\e601";
+}
+
+.menu-up-arrow:before {
+    content: "\e602";
+}
+
+.content-right {
+    margin-left: 10px;
+    width: 810px;
+    min-height: 400px;
+}
+
+.crumb {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FAFAFA;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.footer {
+    clear:both;
+    margin:20px auto;
+    padding-top:20px;
+    width: 1002px;
+    text-align: center;
+    border-top: 1px solid #E5E5E5;
+}
+
+.footer p {
+    height: 20px;
+    line-height: 20px;
+}
+
+.footer a {
+    color: #FBBD00;
+}
+
+/*分页相关样式*/
+.thickdiv{width: 100%;height: 100%;position: absolute;left: 0;top: 0;background-color: #000;opacity: 0.2;z-index: 998;display: none;}
+.pagination-bar{margin: 25px 25px 25px 0;height: 28px;margin-right: 25px;margin-bottom: 25px;float: right;}
+.pagination-bar a{color: black;border: 1px solid gainsboro;margin: 0 5px;display: inline-block;height: 26px;line-height: 26px;width: 48px;text-align: center;}
+.pagination-bar input{text-align: center;line-height: 26px;height: 26px;width: 24px;margin: 0 5px;padding: 0 12px;border: 1px solid gainsboro;}
+.pagination-bar .noPrevPage, .pagination-bar .noNextPage, .pagination-bar .noFirstPage, .pagination-bar .noLastPage{cursor: default;color: darkgray;}

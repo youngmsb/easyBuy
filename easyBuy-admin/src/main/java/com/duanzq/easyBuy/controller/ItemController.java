@@ -21,4 +21,9 @@ public class ItemController {
         System.out.println(tbItem.getBarcode());
         return "123";
     }
+
+    @RequestMapping("/toIndex")
+    public String toIndex(){
+        return "back_page/index";
+    }
 }

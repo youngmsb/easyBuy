@@ -1,0 +1,116 @@
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+html {
+    height: 101%;
+}
+
+body {
+    font-size: 62.5%;
+    line-height: 1;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav, section {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+p {
+    line-height: 1.0em;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.ofh {
+    overflow: hidden;
+}
+
+.cred {
+    color: red;
+}
+
+.clear:before {
+    content: "";
+    display: table;
+}
+
+.clear:after {
+    display:block;
+    content:".";
+    height:0;
+    visibility:hidden;
+    clear:both;
+    font-size:0;
+    line-height:0;
+}
+
+.clear {
+    clear: both;
+    *zoom: 1;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../../../font/admin/iconfont.eot'); /* IE9*/
+    src: url('../../../font/admin/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../../font/admin/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../../../font/admin/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../../../font/admin/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -14,7 +14,7 @@
     <mybatis.spring.version>1.2.2</mybatis.spring.version>
     <mybatis.paginator.version>1.2.15</mybatis.paginator.version>
     <mysql.version>5.1.32</mysql.version>
-    <slf4j.version>1.6.4</slf4j.version>
+    <slf4j.version>1.7.20</slf4j.version>
     <jackson.version>2.4.2</jackson.version>
     <druid.version>1.0.9</druid.version>
     <httpclient.version>4.3.5</httpclient.version>
@@ -32,6 +32,11 @@
     <solrj.version>4.2.1</solrj.version>
     <freemarker.version>2.3.23</freemarker.version>
     <quartz.version>2.1.1</quartz.version>
+    <fastjson.version>1.1.41</fastjson.version>
+    <guava.version>17.0</guava.version>
+    <logback.version>1.0.13</logback.version>
+    <commons-codec.version>1.10</commons-codec.version>
+    <fastjson.version>1.2.10</fastjson.version>
   </properties>
 
   <!--版本统一管理-->
@@ -50,7 +55,7 @@
         <version>${commons-lang3.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.apache.commons</groupId>
+        <groupId>commons-io</groupId>
         <artifactId>commons-io</artifactId>
         <version>${commons-io.version}</version>
       </dependency>
@@ -58,6 +63,11 @@
         <groupId>commons-net</groupId>
         <artifactId>commons-net</artifactId>
         <version>${commons-net.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>${commons-codec.version}</version>
       </dependency>
       <!-- Jackson Json处理工具包 -->
       <dependency>
@@ -81,7 +91,7 @@
       <!-- 日志处理 -->
       <dependency>
         <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-log4j12</artifactId>
+        <artifactId>slf4j-api</artifactId>
         <version>${slf4j.version}</version>
       </dependency>
       <!-- Mybatis -->
@@ -203,6 +213,21 @@
         <groupId>org.quartz-scheduler</groupId>
         <artifactId>quartz</artifactId>
         <version>${quartz.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>${guava.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>${logback.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${fastjson.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

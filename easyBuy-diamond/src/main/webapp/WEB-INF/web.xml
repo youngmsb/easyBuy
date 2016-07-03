@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
-    <display-name>diamond server</display-name>
+    <display-name>easyBuy-diamond</display-name>
 
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -47,7 +47,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>diamond</servlet-name>
-        <url-pattern>*.do</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -59,14 +59,4 @@
         <servlet-name>ConfigServlet</servlet-name>
         <url-pattern>/content</url-pattern>
     </servlet-mapping>
-
-    <welcome-file-list>
-        <welcome-file>/WEB-INF/views/login.jsp</welcome-file>
-    </welcome-file-list>
-
-    <error-page>
-        <error-code>500</error-code>
-        <location>/jsp/500.jsp</location>
-    </error-page>
-
 </web-app>

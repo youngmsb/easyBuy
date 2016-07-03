@@ -254,9 +254,9 @@
 <!-- footer start -->
 <jsp:include page="../commons/footer.jsp" />
 <!-- footer end -->
-<script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
-<script type="text/javascript" src="/js/lib-v1.js"></script>
-<script type="text/javascript" src="/js/product.js"></script>
-<script type="text/javascript" src="/js/iplocation_server.js"></script>
+<script type="text/javascript" src="/easyBuy-portal/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="/easyBuy-portal/js/lib-v1.js"></script>
+<script type="text/javascript" src="/easyBuy-portal/js/product.js"></script>
+<script type="text/javascript" src="/easyBuy-portal/js/iplocation_server.js"></script>
 </body>
 </html>

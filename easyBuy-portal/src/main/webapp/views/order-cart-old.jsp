@@ -14,13 +14,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>订单结算页 -淘淘商城</title>
 	<!--结算页面样式-->
-    <link type="text/css" rel="stylesheet" href="/css/base.css" />
-    <link type="text/css" rel="stylesheet" href="/css/purchase.checkout.css" />
-	<script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
-	<script type="text/javascript" src="/js/jquery.checkout.js"></script>
-	<script type="text/javascript" src="/js/base-v1.js"></script>
-	<script type="text/javascript" src="/js/order.common.js"></script>
-	<script type="text/javascript" src="/js/taotao.js" charset="utf-8"></script>
+    <link type="text/css" rel="stylesheet" href="/easyBuy-portal/css/base.css" />
+    <link type="text/css" rel="stylesheet" href="/easyBuy-portal/css/purchase.checkout.css" />
+	<script type="text/javascript" src="/easyBuy-portal/js/jquery-1.2.6.min.js"></script>
+	<script type="text/javascript" src="/easyBuy-portal/js/jquery.checkout.js"></script>
+	<script type="text/javascript" src="/easyBuy-portal/js/base-v1.js"></script>
+	<script type="text/javascript" src="/easyBuy-portal/js/order.common.js"></script>
+	<script type="text/javascript" src="/easyBuy-portal/js/taotao.js" charset="utf-8"></script>
 </head>
 <body id="mainframe">
 <!--shortcut start-->
@@ -46,7 +46,7 @@
 		<input type="hidden" name="orderShipping.receiverAddress" value="浦江镇 江玮路450弄42号402（闵浦新苑五村）"/>
 	</form>
 	<div class="w w1 header clearfix">
-		<div id="logo"><a href="http://www.taotao.com/"><img src="/images/taotao-logo.gif" alt="淘淘商城" /></a></div>
+		<div id="logo"><a href="http://www.taotao.com/"><img src="/easyBuy-portal/images/taotao-logo.gif" alt="淘淘商城" /></a></div>
 		<div class="progress clearfix">
 			<ul class="progress-2">
 				<li class="s1"><b></b>1.我的购物车</li>

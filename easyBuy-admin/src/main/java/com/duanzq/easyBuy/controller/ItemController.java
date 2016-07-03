@@ -3,6 +3,7 @@ package com.duanzq.easyBuy.controller;
 import com.duanzq.easyBuy.model.TbItem;
 import com.duanzq.easyBuy.service.ItemService;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.annotation.Resource;
@@ -24,6 +25,16 @@ public class ItemController {
 
     @RequestMapping("/toIndex")
     public String toIndex(){
-        return "back_page/index";
+        return "index";
+    }
+
+    /**
+     * 映射所有页面请求
+     * @param page 页面name
+     * @return
+     */
+    @RequestMapping("/showPage/{page}")
+    public String showPage(@PathVariable String page){
+        return page;
     }
 }

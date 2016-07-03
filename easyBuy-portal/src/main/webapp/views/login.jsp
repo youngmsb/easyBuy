@@ -6,9 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
     <title>登录淘淘</title>
     <link type="text/css" rel="stylesheet" href="/css/login.css"/>
-    <script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
-    <script type="text/javascript" src="/js/login/g.base.js"></script>
-   	<script type="text/javascript" src="/js/login/jdEdit.js"></script>
+    <script type="text/javascript" src="/easyBuy-portal/js/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="/easyBuy-portal/js/login/g.base.js"></script>
+   	<script type="text/javascript" src="/easyBuy-portal/js/login/jdEdit.js"></script>
     <script type="text/javascript">
         var pgeditor = new jQuery.pge({
             pgePath: "#",
@@ -45,7 +45,7 @@
 <div class="w">
     <div id="logo">
     	<a href="http://www.taotao.com/" clstag="passport|keycount|login|01">
-    		<img src="/images/taotao-logo.gif" alt="淘淘" width="170" height="60"/>
+    		<img src="/easyBuy-portal/images/taotao-logo.gif" alt="淘淘" width="170" height="60"/>
     	</a><b></b>
    	</div>
 </div>

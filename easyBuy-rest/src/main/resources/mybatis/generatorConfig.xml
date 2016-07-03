@@ -24,9 +24,7 @@
         <!-- 生成dao层接口文件-->
         <javaClientGenerator type="xmlMapper" targetPackage="com.duanzq.easyBuy.mapper" targetProject="src/main/java"/>
         <!-- 为哪些表生成代码 tableName:表名 schema:不用填写 去除例子生成-->
-        <table schema="" tableName="tb_item" enableCountByExample="false"
-               enableUpdateByExample="false" enableDeleteByExample="false"
-               enableSelectByExample="false" selectByExampleQueryId="false">
+        <table schema="" tableName="tb_item_cat" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
         </table>
     </context>
 </generatorConfiguration>

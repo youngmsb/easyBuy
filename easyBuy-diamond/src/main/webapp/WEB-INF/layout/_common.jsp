@@ -7,7 +7,7 @@
     	<meta charset="utf-8">
     	<title>SuperDiamond 配置管理服务器</title>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link href='<c:url value="/resources/css/bootstrap/css/bootstrap.min.css" />' rel="stylesheet">
+    	<link href='<c:url value="/resources/css/bootstrap/css/bootstrap.css" />' rel="stylesheet">
     	<script type="text/javascript" src='<c:url value="/resources/js/jquery.min.js" />'></script>
     	<script type="text/javascript" src='<c:url value="/resources/js/bootstrap.min.js" />'></script>
     	<script type="text/javascript" src='<c:url value="/resources/js/bootbox.min.js" />'></script>

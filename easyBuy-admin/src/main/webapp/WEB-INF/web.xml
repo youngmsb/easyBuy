@@ -37,7 +37,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>DispatcherServlet</servlet-name>
-    <!--/只拦截Servlet请求, /*资源请求也拦截-->
+    <!--/拦截所有url(包括静态资源), /*拦截所有请求, 从controller到jsp会再次被拦截-->
     <url-pattern>/</url-pattern>
   </servlet-mapping>
 </web-app>

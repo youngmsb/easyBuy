@@ -14,5 +14,9 @@
 系统通用服务工程, 将下单等操作发布成服务, 供多平台调用
 # easyBuy-diamond
 系统配置通用管理工程, 用于动态更改系统中的配置
+# easyBuy-crawler
+系统爬虫工程, 用于爬取商品数据
+# easyBuy-search
+系统搜索工程, 用于商品搜索
 # easyBuy-resources
 系统静态资源工程, 动静分离

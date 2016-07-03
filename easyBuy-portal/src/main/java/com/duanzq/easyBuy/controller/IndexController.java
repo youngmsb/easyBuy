@@ -11,7 +11,6 @@ public class IndexController {
 
     @RequestMapping("/index.html")
     public String toIndex(){
-        System.out.println("123");
         return "index";
     }
 }

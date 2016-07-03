@@ -63,11 +63,11 @@ $(document).ready(function () {
 	    	if(confirmed)
 	    		window.location.href = e.target.href;
 	    });
-	    
+
 	    return false;
 	});
 	
-	var options = {
+/*	var options = {
     	size: "small",
     	alignment:"right",
     	totalPages: <c:out value="${totalPages}"/>,
@@ -75,7 +75,7 @@ $(document).ready(function () {
         pageUrl: function(type, page, current){
             return "/superdiamond/project/index?page="+page;
         }
-    }
+    }*/
     $('#paginator').bootstrapPaginator(options);
 });
 </script>

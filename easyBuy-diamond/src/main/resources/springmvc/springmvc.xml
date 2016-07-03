@@ -5,32 +5,13 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans     
         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
-        http://www.springframework.org/schema/mvc 
+        http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
-        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
-
 
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>
         <property name="suffix" value=".jsp"/>
-    </bean>
-
-    <!--freemarker视图解析器-->
-    <bean id="freemarkerResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
-        <property name="order" value="1" /><!--order是视图解析器优先级，0优先级最大-->
-        <property name="suffix" value=".ftl" /><!--模版文件的后缀-->
-        <property name="contentType" value="text/html;charset=utf-8" /><!--模版文件的类型及编码-->
-        <property name="viewClass"><!--模版视图的路径-->
-            <value>com.duanzq.easyBuy.view.CustFreeMarkerView</value>
-        </property>
-    </bean>
-    <!--freemarker配置-->
-    <bean id="freemarkerConfig" class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
-        <property name="templateLoaderPath"><!--模版文件加载的路径，放在classpath下加上classpath前缀即可-->
-            <value>/</value>
-        </property>
-        <!--freemarker配置文件路径-->
-        <property name="configLocation" value="classpath:conf/freemarker.properties"/>
     </bean>
 </beans>

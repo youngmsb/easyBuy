@@ -17,7 +17,6 @@ public class LoginController {
     @Autowired
     private AdminService adminService;
 
-
     @RequestMapping(params = "method=login", method = RequestMethod.POST)
     public String login(HttpServletRequest request, @RequestParam("username") String username,
                         @RequestParam("password") String password, ModelMap modelMap) {
@@ -25,7 +24,7 @@ public class LoginController {
             request.getSession().setAttribute("user", username);
 
             String result = Json.processJson(request, modelMap, "login successfully");
-            return result != null ? result : "index";
+            return result != null ? result : "layout/_common";
         } else {
             String result = Json.processJson(request, modelMap, "login failed");
             if (result != null) return result;

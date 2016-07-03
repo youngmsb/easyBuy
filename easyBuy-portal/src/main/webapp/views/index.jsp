@@ -9,7 +9,7 @@
 <title>淘淘网上商城-综合网购首选（JD.COM）-正品低价、品质保障、货到付款、配送及时、放心服务、轻松购物！</title>
 <meta name="description" content="淘淘JD.COM-专业的综合网上购物商城，在线销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品、在线旅游等数万个品牌千万种优质商品。便捷、诚信的服务，为您提供愉悦的网上商城购物体验! ">
 <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,淘淘商城">
-<link href="/css/taotao.css" rel="stylesheet"/>
+<link href="/easyBuy-portal/css/taotao.css" rel="stylesheet"/>
 <script type="text/javascript">
 	window.pageConfig={
 	compatible:true,
@@ -171,7 +171,7 @@ pageConfig.DATA_MScroll =[
         x = pageConfig.FN_GetCompatibleData(a[i]);
         e.push("<li class=\"item\"><a href=\"");
         e.push(x.href);
-        e.push("\"><img src=\"/images/blank.gif\" style=\"background:url(");
+        e.push("\"><img src=\"/easyBuy-portal/images/blank.gif\" style=\"background:url(");
         e.push(x.src);
         e.push(") no-repeat #fff center 0;\" alt=\"");
         e.push(x.alt);
@@ -195,7 +195,7 @@ pageConfig.DATA_MScroll =[
 	            {
 	                "width": 310,
 	                "height": 70,
-	                "src": "/images/5440ce68Na00d019e.jpg",
+	                "src": "/easyBuy-portal/images/5440ce68Na00d019e.jpg",
 	                "href": "http://c.fa.jd.com/adclick?sid=2&cid=601&aid=3614&bid=4196&unit=35984&advid=109277&guv=&url=http://sale.jd.com/mall/FQLUNlG53wbX7m.html",
 	                "alt": "",
 	                "widthB": 210,
@@ -211,7 +211,7 @@ pageConfig.DATA_MScroll =[
 </div><!--da end-->
 <div id="jdnews" class="m m1" >
 <div class="mt">
-<h2>淘淘快报</h2>
+<h2>易买快报</h2>
 <div class="extra" clstag="homepage|keycount|home2013|11a"><a href="http://www.jd.com/moreSubject.aspx" target="_blank">更多快报&nbsp;&gt;</a></div>
 </div>
 <div class="mc">
@@ -292,7 +292,7 @@ pageConfig.DATA_MScroll =[
 <span clstag="homepage|keycount|home2013|18b">
 <!-- 广告信息 -->
 	<a target="_blank" title="" href="http://c.fa.jd.com/adclick?sid=2&cid=601&aid=3624&bid=0&unit=35989&advid=105087&guv=&url=http://sale.jd.com/act/PzKvRu4Ld5YnG1Ej.html">
-		<img data-img="2" data-lazyload="/images/543b4d75N686689d7.jpg" width="209" height="155" alt="" />
+		<img data-img="2" data-lazyload="/easyBuy-portal/images/543b4d75N686689d7.jpg" width="209" height="155" alt="" />
 	</a>
 </span>
 </div>
@@ -377,6 +377,6 @@ pageConfig.DATA_Tabs = {"1615":{"1":{"d":"g15\/M00\/13\/1E\/rBEhWFJ4sNUIAAAAAAHJ
 <jsp:include page="../commons/footer.jsp" />
 <!-- footer end -->
  
-<script type="text/javascript" src="/js/home.js" charset="utf-8"></script>
+<script type="text/javascript" src="/easyBuy-portal/js/home.js" charset="utf-8"></script>
 </body>
 </html>

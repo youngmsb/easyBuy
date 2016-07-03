@@ -8,9 +8,9 @@
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="Cache-Control" content="no-cache,must-revalidate">
     <title>注册-个人用户</title>
-    <link type="text/css" rel="stylesheet" href="/css/regist.personal.css"/>
-    <link type="text/css" rel="stylesheet" href="/css/passport.base.css"/>
-    <script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="/easyBuy-portal/css/regist.personal.css"/>
+    <link type="text/css" rel="stylesheet" href="/easyBuy-portal/css/passport.base.css"/>
+    <script type="text/javascript" src="/easyBuy-portal/js/jquery-1.2.6.min.js"></script>
 </head>
 <body>
     <script type="text/javascript">
@@ -80,7 +80,7 @@ function addToFavorite() {
 <div class="w" id="logo">
     <div>
     	<a href="http://www.taotao.com/">
-    		<img src="/images/taotao-logo.gif" alt="京东商城" width="170" height="60"/>
+    		<img src="/easyBuy-portal/images/taotao-logo.gif" alt="京东商城" width="170" height="60"/>
     	</a> <b></b>
     </div>
 </div>

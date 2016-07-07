@@ -28,6 +28,10 @@
       <artifactId>lucene-queryparser</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-highlighter</artifactId>
+    </dependency>
+    <dependency>
       <groupId>com.duanzq.easyBuy.analyzer</groupId>
       <artifactId>ik-analyzer</artifactId>
     </dependency>

@@ -25,7 +25,9 @@ public class LuceneCreateIndexTest {
         //添加一个long类型的id, 字段名,字段值,是否存储
         document.add(new LongField("id", 12L, Field.Store.YES));
         //StringField:做索引,不分词;TextField:做索引,分词
-        document.add(new TextField("title", "苹果apple5", Field.Store.YES));
+        Field field = new TextField("title", "苹果apple5对烦烦烦对对手机", Field.Store.YES);
+        field.setBoost(10);
+        document.add(field);
         document.add(new LongField("price", 4900L, Field.Store.YES));
         //不需要作为结果展示到页面的内容就不需要存储
         document.add(new StringField("image", "http://image", Field.Store.NO));

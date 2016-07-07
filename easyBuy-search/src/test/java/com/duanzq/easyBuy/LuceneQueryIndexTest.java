@@ -22,7 +22,7 @@ public class LuceneQueryIndexTest {
         IndexSearcher indexSearcher = new IndexSearcher(DirectoryReader.open(directory));
 
         //创建查询对象(Term(字段名, 字段值))
-        Query termQuery = new TermQuery(new Term("title", "传智播客"));
+        Query termQuery = new TermQuery(new Term("title", "对对"));
         //执行搜索(搜索前10条), 返回命中数据
         TopDocs topDocs = indexSearcher.search(termQuery, 10);
         System.out.println("共命中" + topDocs.totalHits + "条数据");
